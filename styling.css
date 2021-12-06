@@ -1,0 +1,62 @@
+header,
+section,
+footer {
+    font-family: Helvetica;
+}
+
+header,
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+footer {
+    padding-left: 20%;
+    padding-bottom: 20%;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+h1 {
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
+    background-image: url(./images/pattern.webp);
+    background-size: 1500px;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    padding: 1.5%;
+}
+
+li {
+    float: left;
+    display: inline;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+p a {
+    color: blue;
+    font-weight: bold;
+}
+
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
